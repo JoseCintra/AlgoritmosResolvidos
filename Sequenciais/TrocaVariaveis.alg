@@ -1,7 +1,7 @@
 //     Algoritmos Resolvidos
-//     Prof.JosÈ Augusto Cintra - http://josecintra.com/blog
+//     Prof.Jos√© Augusto Cintra - http://josecintra.com/blog
 
-//     Enunciado: Leia duas vari·veis e troque seus valores
+//     Enunciado: Leia duas vari√°veis e troque seus valores
 
 algoritmo "TrocaVariaveis"
 
@@ -10,19 +10,19 @@ a,b,auxiliar : real
 
 inicio
 
-// AtribuiÁ„o dos valores iniciais
+// Atribui√ß√£o dos valores iniciais
 escreval("Valor de A antes da troca: ")
 leia(a)
 escreval("Valor de B antes da troca: ")
 leia(b)
 
 // Troca dos valores
-auxiliar <- a // Guarda o valor da vai·vel A antes de trocar
+auxiliar <- a // Guarda o valor da vai√°vel A antes de trocar
 a <- b
 b <- auxiliar
 
-// SaÌda de dados
-escreval("Valor de A depois da troca: ", a)
+// Sa√≠da de dados
+escreval("Valor de A depois da troca: ", a) 
 escreval("Valor de B depois da troca: ", b)
 
 fimalgoritmo
