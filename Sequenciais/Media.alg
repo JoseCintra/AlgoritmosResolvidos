@@ -1,9 +1,9 @@
 //     Algoritmos Resolvidos
-//     Prof.José Augusto Cintra - http://josecintra.com/blog
+//     Prof.JosÃ© Augusto Cintra - http://josecintra.com/blog
 
-//     Enunciado: Calcule a média aritmética de 2 números informados pelo usuário
+//     Enunciado: Calcule a mÃ©dia aritmÃ©tica de 2 nÃºmeros informados pelo usuÃ¡rio
 
-algoritmo "Media"
+algoritmo "Media" 
 
 var
   numero1,numero2 : real
@@ -12,13 +12,13 @@ var
 inicio
 
   // Entrada de dados
-  escreva("Digite o primeiro número: ")
+  escreva("Digite o primeiro nÃºmero: ")
   leia(numero1)
   escreva("Digite o segundo numero: ")
   leia(numero2)
 
-  // Cálculo e impressão da média
+  // CÃ¡lculo e impressÃ£o da mÃ©dia
   media <-(numero1 + numero2) / 2
-  escreva("Média = ", media)
+  escreva("MÃ©dia = ", media)
 
 fimalgoritmo
