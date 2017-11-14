@@ -1,8 +1,8 @@
 //     Algoritmos Resolvidos
-//     Prof.José Augusto Cintra - http://josecintra.com/blog
+//     Prof.JosÃ© Augusto Cintra - http://josecintra.com/blog 
 
-//     Enunciado: A Loja Mamão com Açúcar está vendendo seus produtos em até 5 (cinco) prestações sem juros. Faça um algoritmo que
-//                Leia o valor da compra, o número de prestações e mostre o valor das prestações.
+//     Enunciado: A Loja MamÃ£o com AÃ§Ãºcar estÃ¡ vendendo seus produtos em atÃ© 5 (cinco) prestaÃ§Ãµes sem juros. FaÃ§a um algoritmo que
+//                Leia o valor da compra, o nÃºmero de prestaÃ§Ãµes e mostre o valor das prestaÃ§Ãµes.
 //
 
 algoritmo "Prestacoes"
@@ -16,13 +16,13 @@ inicio
 // Entrada de dados
 escreva("Digite o valor da compra: ")
 leia(vr_compra)
-escreva("Digite o número de prestações: ")
+escreva("Digite o nÃºmero de prestaÃ§Ãµes: ")
 leia(num_prestacao)
 
-// Cálculo
+// CÃ¡lculo
 vr_prestacao <- vr_compra/num_prestacao
 
-// Saída de de dados
-escreval("O cliente deverá pagar ", num_prestacao, " prestações de R$ ", vr_prestacao)
+// SaÃ­da de de dados
+escreval("O cliente deverÃ¡ pagar ", num_prestacao, " prestaÃ§Ãµes de R$ ", vr_prestacao)
 
 fimalgoritmo
