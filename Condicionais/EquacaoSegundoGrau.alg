@@ -1,7 +1,7 @@
 //     Algoritmos Resolvidos
-//     Prof.José Augusto Cintra - http://josecintra.com/blog
+//     Prof.JosÃ© Augusto Cintra - http://josecintra.com/blog
 
-//     Enunciado: Calcule as raízes de uma equação do segundo grau, sendo dados seus coeficientes
+//     Enunciado: Calcule as raÃ­zes de uma equaÃ§Ã£o do segundo grau, sendo dados os coeficientes
 
 algoritmo "equacao_segundo_grau"
 
@@ -11,28 +11,28 @@ A,B,C,X1,X2,DELTA: real
 inicio
 
 // Entrada de dados
-escreva("Digite o coeficiente A da equação: ")
+escreva("Digite o coeficiente A da equaÃ§Ã£o: ")
 leia(A)
-escreva("Digite o coeficiente B da equação: ")
+escreva("Digite o coeficiente B da equaÃ§Ã£o: ")
 leia(B)
-escreva("Digite o coeficiente C da equação: ")
+escreva("Digite o coeficiente C da equaÃ§Ã£o: ")
 leia(C)
 
-// Cálculo do delta
+// CÃ¡lculo do delta
 DELTA <-  B*B-4*A*C
 
-// Cáculo das raízes
+// CÃ¡culo das raÃ­zes
 se (DELTA < 0) entao
-  escreval("Equação não possui raizes reais")
+  escreval("EquaÃ§Ã£o nÃ£o possui raizes reais")
 senao
   se(DELTA = 0) entao
     X1 <- -B/2*A
-    escreval("Equação possui uma uúnica raiz")
+    escreval("EquaÃ§Ã£o possui uma uÃºnica raiz")
     escreval("x = ", X1)
   senao
     X1 <- (-B + Raizq(DELTA)) / (2*A)
     X2 <- (-B - Raizq(DELTA)) / (2*A)
-    escreval("Equação possui 2 raízes")
+    escreval("EquaÃ§Ã£o possui 2 raÃ­zes")
     escreval("x1 = ", X1)
     escreval("x2 = ", X2)
   fimse
