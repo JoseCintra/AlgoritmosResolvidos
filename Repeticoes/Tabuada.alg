@@ -1,7 +1,7 @@
 //     Algoritmos Resolvidos
-//     Prof.JosÈ Augusto Cintra - http://josecintra.com/blog
+//     Prof.Jos√© Augusto Cintra - http://josecintra.com/blog
 
-//     Enunciado: Imprima a tabuada de um n˙mero informado pelo usu·rio
+//     Enunciado: Imprimir a tabuada de um n√∫mero informado pelo usu√°rio
 
 
 algoritmo "Tabuada"
@@ -15,7 +15,7 @@ inicio
   Escreva("Digite o numero para a tabuada: ")
   leia(numero)
 
-  // Impress„o da tabuada
+  // Impress√£o da tabuada
   para contador de 1 ate 10 faca
     resultado <- contador * numero
     escreval(numero:2," x ",contador:2," = ",resultado:2)
