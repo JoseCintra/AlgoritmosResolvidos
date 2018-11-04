@@ -1,8 +1,10 @@
 //     Algoritmos Resolvidos
-//     Prof.JosÈ Augusto Cintra - http://josecintra.com/blog
+//     Prof.Jos√© Augusto Cintra - http://josecintra.com/blog
 
-//     Enunciado: Leia o comprimentos dos lados de um ret‚ngulo e informe se ele È equil·tero, isÛsceles ou escaleno
-//                Obs: Para formar um tri‚ngulo, o comprimento de uma lado n„o pode ser maior que a soma dos comprimentos dos outros
+//     Enunciado: Leia o comprimentos dos lados de um ret√¢ngulo e informe se ele √© equil√°tero, is√≥sceles ou escaleno
+//                Obs: - Para formar um tri√¢ngulo, o comprimento de uma lado n√£o pode ser maior que a soma dos comprimentos dos outros.
+//                     - Os lados do tri√¢ngulo devem ser informados em ordem crescente
+            
 
 
 algoritmo "Triangulo"
@@ -12,27 +14,27 @@ la, lb, lc : inteiro
 
 inicio
 
-escreva("Digite o lado A do tri‚ngulo: ")
+escreva("Digite o lado A do tri√¢ngulo: ")
 leia(la)
-escreva("Digite o lado B do tri‚ngulo: ")
+escreva("Digite o lado B do tri√¢ngulo: ")
 leia(lb)
-escreva("Digite o lado C do tri‚ngulo: ")
+escreva("Digite o lado C do tri√¢ngulo: ")
 leia(lc)
 
 se (la > (lc+lb)) ou (lb > (la+lc)) ou (lc > (la+lb)) entao
-  escreva ("Esses lados n„o formam um tri‚ngulo")
+  escreva ("Esses lados n√£o formam um tri√¢ngulo")
 senao
   se la = lb entao
     se lb = lc entao
-      escreval("… um tri‚ngulo equil·tero!")
+      escreval("√â um tri√¢ngulo equil√°tero!")
     senao
-      escreval("… um tri‚ngulo isÛsceles")
+      escreval("√â um tri√¢ngulo is√≥sceles")
     fimse
   senao
     se lb = lc entao
-      escreval("… um tri‚ngulo isÛsceleS")
+      escreval("√â um tri√¢ngulo is√≥sceleS")
     senao
-      escreval("… um tri‚ngulo escaleno")
+      escreval("√â um tri√¢ngulo escaleno")
     fimse
   fimse
 fimse
