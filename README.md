@@ -1,6 +1,8 @@
 # AlgoritmosResolvidos
 Coleção de algoritmos resolvidos em VisualG 
 
+Material complementar do CURSO DE ALGORITMOS & LÓGICA DE PROGRAMAÇÃO disponível aqui: <a href="http://josecintra.com/blog/algoritmos-logica-programacao-aulas/">BlogDoJoseCintra</a>. 
+
 Estou disponibilizando neste repositório alguns <b>exercícios resolvidos</b> com <b>algoritmos</b> escritos em pseudocódigo usando a sintaxe <a href="http://www.apoioinformatica.inf.br/produtos/visualg">VisualG</a>.
 Este material pode ser útil para os alunos e estudiosos da disciplina de "Algoritmos e Lógica de Programação" dos cursos de Ciência da Computação.
 
