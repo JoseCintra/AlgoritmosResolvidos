@@ -1,1 +1,1 @@
-#Algoritmos resolvidos na linguagem C
+# Algoritmos resolvidos na linguagem C
