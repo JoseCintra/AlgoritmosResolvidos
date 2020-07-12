@@ -1,5 +1,5 @@
 # AlgoritmosResolvidos
-Coleção de algoritmos resolvidos em diversas linguagens de programação (C, Python, Portugol, etc). 
+Coleção de algoritmos resolvidos em diversas linguagens de programação (C, GO, Portugol, etc). 
 
 Estou disponibilizando neste repositório alguns <b>exercícios resolvidos</b> com <b>algoritmos</b>. 
 Este material pode ser útil para os alunos e estudiosos da disciplina de "Algoritmos e Lógica de Programação" dos cursos de Ciência da Computação.
