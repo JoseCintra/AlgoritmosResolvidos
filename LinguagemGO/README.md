@@ -1,3 +1,3 @@
-# Algoritmos resolvidos na linguagem GO
+# Algoritmos resolvidos na linguagem GO (Golang) 
 
-# Trabalho em desenvolvimento
+Material complementar da <a href="https://josecintra.com/blog/golang-apostila-linguagem-de-programacao-go/" target="_blank">Apostila de Introdução à Linguagem de Programação GO</a>
